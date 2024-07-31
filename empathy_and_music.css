@@ -5,6 +5,7 @@
 }
 
 .content section{
-  padding: 20px auto; 
+  margin: 20px auto;
+  padding: 20px; 
   border-radius: 8px;
 }
