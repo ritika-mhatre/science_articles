@@ -28,31 +28,31 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Blog entries -->
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <div class="w3-row">
+  <div class="w3-card w3-margin w3-white" style="max-height: 250px; overflow: hidden;">
+    <div class="w3-row w3-padding-small" style="display: flex; align-items: center;">
+      
       <!-- Image on the left -->
-      <div class="w3-col m4 s12">
-        <img src="musicempathy.jpg" alt="Nature" style="width:100%; height:100%; object-fit:cover;">
+      <div style="flex: 0 0 30%; max-width: 30%;">
+        <img src="musicempathy.jpg" alt="Empathy and Music" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
 
-      <!-- Title and content on the right -->
-      <div class="w3-col m8 s12">
-        <div class="w3-container">
-          <h3><b>Unveiling the Link between Trait Empathy and Music</b></h3>
-          <h5><span class="w3-opacity">April 1, 2025</span></h5>
-        </div>
+      <!-- Text content on the right -->
+      <div style="flex: 1; padding: 16px;">
+        <h4 style="margin-top: 0;"><b>Unveiling the Link between Trait Empathy and Music</b></h4>
+        <h6 class="w3-opacity" style="margin: 4px 0;">April 1, 2025</h6>
+        <p style="margin: 8px 0; font-size: 14px;">
+          Music gives us an inner glimpse of those around us and fosters empathic relationships. The article “Neurological Effects of Trait Empathy in Music Listening” highlights studies by Wallmark et al. showing how music elicits neural responses aligned with empathy theories.
+        </p>
 
-        <div class="w3-container">
-          <p>Music gives us an inner glimpse of those around us and fosters the development of empathic relationships with others. The research article titled, “Neurological Effects of Trait Empathy in Music Listening” delves into two experiments conducted by Wallmark et. al (2018) from “Frontiers in Behavioral Neuroscience” concerning the psychological connection between musical experience and empathy. These studies demonstrated that musical sounds can generate neural responses consistent with theories of empathy.</p>
-          <div class="w3-row">
-            <div class="w3-col m8 s12">
-              <a href="empathy_and_music.html">
-                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-              </a>
-            </div>
-            <div class="w3-col m4 w3-hide-small">
-              <p><span class="w3-padding-large w3-right"><b>Comments  </b><span class="w3-tag">0</span></span></p>
-            </div>
+        <!-- Buttons and comments -->
+        <div class="w3-row" style="margin-top: 8px;">
+          <div class="w3-col s8">
+            <a href="empathy_and_music.html">
+              <button class="w3-button w3-small w3-white w3-border"><b>READ MORE »</b></button>
+            </a>
+          </div>
+          <div class="w3-col s4 w3-right-align w3-hide-small">
+            <span class="w3-tag w3-small">Comments: 0</span>
           </div>
         </div>
       </div>
